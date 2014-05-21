@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Seam Carving</title>
+    <link rel="stylesheet" href="css/jquery-ui-custom-1.10.4.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <h1> Seam Carving Demo </h1>
+
+    <input type="radio" name="display-option" value="original" checked> Original
+    <input type="radio" name="display-option" value="gradient"> Gradient
+    <input type="checkbox" name="show-seams" checked> Show Seams
+
+    <div id="resize-row">
+      <div id="resize-container"></div>
+      <canvas id="image-canvas"></canvas>
+    </div>
+
+    <div id="images-to-load">
+      <img class="image-to-carve" src="images/landscape.jpg">
+      <img class="image-to-carve" src="images/broadway-tower.jpg">
+      <img class="image-to-carve" src="images/beach-village.jpg">
+      <img class="image-to-carve" src="images/mountains.jpg">
+      <img class="image-to-carve" src="images/eiffel-tower.jpg">
+      <input type="file" id="image-loader">
+    </div>
+
+    <script src="js/vendor/jquery-1.11.1.js"></script>
+    <script src="js/vendor/jquery-ui-custom-1.10.4.js"></script>
+    <script src="js/vendor/jquery-ui-touch-punch-0.2.3.js"></script>
+    <script src="js/seam.js"></script>
+    <script src="js/ui.js"></script>
+
+  </body>
+</html>
