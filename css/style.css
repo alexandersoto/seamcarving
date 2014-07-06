@@ -13,10 +13,8 @@
     margin-top: 10px;
 }
 
-.image-to-carve {
-    &:hover {
-        cursor: pointer;
-    }
+.image-to-carve:hover {
+    cursor: pointer;
 }
 
 #images-to-load {
